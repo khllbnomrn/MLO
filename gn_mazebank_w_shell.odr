@@ -1,0 +1,153 @@
+Version 165 32
+{
+	Shaders
+	{
+		normal_spec_detail.sps
+		{
+			BumpSampler gn_mazebank_w_shell\ak_dlc_ex1_marble_tiles_black_n.otx
+			DetailSampler gn_mazebank_w_shell\mp_env_stucco.otx
+			DiffuseSampler gn_mazebank_w_shell\ak_dlc_ex1_marble_tiles_black.otx
+			SpecSampler gn_mazebank_w_shell\ak_dlc_ex1_marble_tiles_black_s.otx
+			Bumpiness 0.1200000
+			DetailSettings 0.5000000 0.5000000 10.0000000 10.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 120.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_detail.sps
+		{
+			BumpSampler ak_dlc_ex1_whitefloor_2_n
+			DetailSampler ENV_STUCCO
+			DiffuseSampler gn_mazebank_w_shell\ak_dlc_ex1_WhiteFloor_d.otx
+			SpecSampler ak_dlc_ex1_WhiteFloor_d
+			Bumpiness 1.0000000
+			DetailSettings 0.1500000 0.1500000 14.0000000 16.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.1250000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler gn_mazebank_w_shell\ak_dlc_ex1_WhiteFloor_n.otx
+			DiffuseSampler gn_mazebank_w_shell\ak_dlc_ex1_WhiteFloor_d.otx
+			SpecSampler gn_mazebank_w_shell\ak_dlc_ex1_WhiteFloor_d.otx
+			Bumpiness 0.1000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 30.0000000
+			SpecularFresnel 0.0700000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_detail.sps
+		{
+			BumpSampler gz_DLC_EX1_Plaster01_N
+			DetailSampler ENV_STUCCO
+			DiffuseSampler ak_dlc_ex1_plaster_White
+			SpecSampler gz_DLC_EX1_Plaster01
+			Bumpiness 1.0000000
+			DetailSettings 0.5000000 0.5000000 14.0000000 16.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 25.0000000
+			SpecularFresnel 0.9000000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler gn_mazebank_w_shell\xj_vdlcex_concrete02_n.otx
+			DiffuseSampler gn_mazebank_w_shell\xj_vdlcex_concrete02.otx
+			SpecSampler gn_mazebank_w_shell\xj_vdlcex_concrete02.otx
+			Bumpiness 2.0000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 10.0000000
+			SpecularFresnel 0.8500000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		default.sps
+		{
+			DiffuseSampler sm1_15_rsn_tpage2
+			HardAlphaBlend 1.0000000
+			UseTessellation 0.0000000
+			WetnessMultiplier 0.0600000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler gn_mazebank_w_shell\sm1_15_rsn_tpage3.otx
+			SpecularFalloffMult 100.0000000
+			SpecularFresnel 0.9700000
+			SpecularIntensityMult 0.4000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_detail.sps
+		{
+			BumpSampler gz_DLC_EX1_Plaster01_N
+			DetailSampler ENV_STUCCO
+			DiffuseSampler gn_mazebank_w_shell\gn_plaster_grey.otx
+			SpecSampler gz_DLC_EX1_Plaster01
+			Bumpiness 1.0000000
+			DetailSettings 0.5000000 0.5000000 14.0000000 16.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 25.0000000
+			SpecularFresnel 0.9000000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec.sps
+		{
+			BumpSampler gn_mazebank_w_shell\XJ_VDLCEX1_WOOD01_N.otx
+			DiffuseSampler gn_mazebank_w_shell\XJ_VDLCEX1_WOOD_MIX01.otx
+			SpecSampler gn_mazebank_w_shell\XJ_VDLCEX1_WOOD_MIX01_S.otx
+			Bumpiness 0.1000000
+			HardAlphaBlend 1.0000000
+			SpecMapIntMask 1.0000000 0.0000000 0.0000000
+			SpecularFalloffMult 80.0000000
+			SpecularFresnel 0.9600000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		normal_spec_detail.sps
+		{
+			BumpSampler gn_mazebank_w_shell\tl_dlc_ch_casino_wall_03_n.otx
+			DetailSampler ENV_NOISE_HEAVY
+			DiffuseSampler gn_mazebank_w_shell\tl_dlc_ch_casino_wall_03.otx
+			SpecSampler gn_mazebank_w_shell\tl_dlc_ch_casino_wall_01_s.otx
+			Bumpiness 0.4000000
+			DetailSettings 0.0500000 0.1000000 9.0000000 9.0000000
+			SpecMapIntMask 0.0000000 1.0000000 0.0000000
+			SpecularFalloffMult 50.0000000
+			SpecularFresnel 0.9600000
+			SpecularIntensityMult 0.8000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			gn_mazebank_w_shell\gn_mazebank_w_shell_high_0.mesh 0
+			gn_mazebank_w_shell\gn_mazebank_w_shell_high_1.mesh 0
+			gn_mazebank_w_shell\gn_mazebank_w_shell_high_2.mesh 0
+			gn_mazebank_w_shell\gn_mazebank_w_shell_high_3.mesh 0
+			gn_mazebank_w_shell\gn_mazebank_w_shell_high_4.mesh 0
+			gn_mazebank_w_shell\gn_mazebank_w_shell_high_5.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -32.7916794 -18.1370106 -7.4746060
+		AABBMax 32.8160019 23.1778297 6.0217018
+		Radius 39.3492
+		Center 0.0121613 2.5204105 -0.7264524
+	}
+	Light null
+	Bound null
+	Joints null
+}

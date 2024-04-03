@@ -1,0 +1,40 @@
+Version 165 32
+{
+	Shaders
+	{
+		default_spec.sps
+		{
+			DiffuseSampler xj_iedlc_white01
+			SpecularFalloffMult 80.0000000
+			SpecularFresnel 0.7000000
+			SpecularIntensityMult 1.0000000
+			UseTessellation 0.0000000
+		}
+		default_spec.sps
+		{
+			DiffuseSampler XJ_IEDLC_BLACKSTEEL01
+			SpecularFalloffMult 60.0000000
+			SpecularFresnel 0.8500000
+			SpecularIntensityMult 0.5000000
+			UseTessellation 0.0000000
+		}
+	}
+	Skeleton null
+	LodGroup
+	{
+		High 9998.0
+		{
+			gn_mazebank_w_stair\gn_mazebank_w_stair_high.mesh 0
+		}
+		Med 9998.0
+		Low 9998.0
+		Vlow 9998.0
+		AABBMin -10.3039513 -6.8829932 -5.9943509
+		AABBMax 5.9177299 2.7637320 3.2190280
+		Radius 10.5011
+		Center -2.1931105 -2.0596309 -1.3876615
+	}
+	Light null
+	Bound null
+	Joints null
+}
